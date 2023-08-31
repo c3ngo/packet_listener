@@ -38,7 +38,7 @@ listen_packets("eth0")
 Run the script by executing the following command:
 
 ```sh
-python3 packet_listener.py
+python3 listener.py
 ```
 
 The packet listener will start capturing network packets on the specified interface. If an HTTP packet with payload content is captured, it will be displayed in the console.
